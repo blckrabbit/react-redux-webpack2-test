@@ -69,10 +69,7 @@ module.exports = {
       {
         test: /\.html$/,
         exclude: /node_modules/,
-        use: 'file-loader',
-        query: {
-          name: '[name].[ext]'
-        }
+        use: 'file-loader?name=[name].[ext]'
       },
       {
         test: /\.css$/,
@@ -86,7 +83,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader'],
+        use: 'babel-loader',
       },
       {
         test: /\.png$/,

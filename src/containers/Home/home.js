@@ -44,6 +44,7 @@ export default class Home extends React.Component {
     }
 
     componentWillMount() {
+        console.log('测试进入首页。。。。。')
         const { navMain, bookDetails } = this.props.home //这个叫做es6的解构赋值
         if (navMain.length === 0) {
             this.props.getNav();

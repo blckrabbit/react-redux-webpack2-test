@@ -14,11 +14,11 @@ import Search from 'containers/Search/search'
 // }
 
 export default (
-    <HashRouter>
+    <BrowserRouter>
         <App>
             <Match exactly pattern="/" component={Home} />
             <Match pattern="/search" component={Search} />
             {/*在这里添加你的Route*/}
         </App>
-    </HashRouter>
+    </BrowserRouter>
 );

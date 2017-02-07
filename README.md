@@ -4,7 +4,7 @@
 
 可以查看本框架上线产品(You can view the on-line products in this framework)：https://hyy1115.github.io/huangyongyue/   
 
-2017-1-15发布(2017-1-15 Release)：  
+2017-2-7发布(2017-2-7 Release)——修复路由版本bug！！：  
 
 1、本项目基于另外一个我开源的另外一个react框架演变而来，webpack1升级到了webpack2(the project is based on another open source I react a framework evolved from another, webpack1 upgrade to the webpack2)
 
