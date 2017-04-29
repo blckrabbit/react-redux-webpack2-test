@@ -5,4 +5,4 @@
 
 2017-3-12发布(2017-3-12 Release)！！：  
 
-因为插件只是测试版，所以该项目停用，请使用稳定版的： https://github.com/hyy1115/react-redux-webpack 
+因为插件只是测试版，所以该项目停用，请使用稳定版的： https://github.com/hyy1115/react-redux-webpack2 
